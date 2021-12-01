@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "keywords": [],
-  "author": "",
+  "author": "Zeljko Damnjanovic",
   "license": "ISC",
   "scripts": {
     "build": "webpack",
@@ -23,10 +22,11 @@
     "husky": "^7.0.4",
     "sass": "^1.43.5",
     "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
     "stylelint": "^14.1.0",
     "stylelint-config-standard-scss": "^3.0.0",
     "webpack": "^5.64.4",
     "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.6.0"
+    "webpack-dev-server": "^4.0.0-rc.1"
   }
 }

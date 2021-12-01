@@ -26,14 +26,15 @@ module.exports = {
 	// loaders
 	module: {
 		rules: [
-			// cssi -D 
+			// css
 			{
 				test: /\.scss$/,
 				use: ["style-loader", "css-loader", "sass-loader"]
 			},
 			// images
 			{
-				test: /\.(svg|ico|png|webp|jpg|gif|jpeg)$/, // <-- check if the extension of used file is included
+				test: /\.(svg|ico|png|webp|jpg|gif|jpeg)$/i, // <-- check if the extension of used file is included
+				exclude: /design/,
 				type: "asset/resource",
 				generator: {
 					filename: "assets/images/[name][ext]"
